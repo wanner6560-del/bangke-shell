@@ -1,0 +1,18 @@
+{
+  "name": "蚌壳 · 私人视觉档案",
+  "short_name": "蚌壳",
+  "description": "保存电影截图、梦和私人文字的视觉档案。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#c7d7d4",
+  "theme_color": "#0c2225",
+  "icons": [
+    {
+      "src": "./shell-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

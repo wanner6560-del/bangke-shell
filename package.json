@@ -1,0 +1,26 @@
+{
+  "name": "bangke-private-archive",
+  "private": true,
+  "version": "0.2.0",
+  "description": "蚌壳 · A local-first visual journal, built through human–AI collaboration.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "check": "pnpm lint && pnpm build",
+    "release": "node scripts/package-release.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "oxlint": "^1.75.0",
+    "vite": "^8.2.0"
+  }
+}

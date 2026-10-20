@@ -1,0 +1,26 @@
+:root {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: #0c2225;
+  background: #9aaca9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --mist: #c7d7d4;
+  --porcelain: #dbe5e1;
+  --deep-water: #0c2225;
+  --wet-green: #183c3c;
+  --raincoat: #d6a539;
+  --bubblegum: #ef6aa7;
+  --bone: #edf0e9;
+  --line: rgba(12, 34, 37, 0.18);
+}
+
+* { box-sizing: border-box; }
+html { background: #93a6a3; }
+body { margin: 0; min-width: 320px; min-height: 100vh; min-height: 100svh; overflow-x: hidden; }
+button, textarea, input { font: inherit; }
+button { color: inherit; }
+button:focus-visible, [role="button"]:focus-visible { outline: 2px solid var(--bubblegum); outline-offset: 3px; }
+img { display: block; max-width: 100%; }
+#root { min-height: 100svh; }
+::selection { color: var(--bone); background: var(--wet-green); }

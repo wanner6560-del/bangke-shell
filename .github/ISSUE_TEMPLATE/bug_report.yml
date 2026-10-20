@@ -1,0 +1,16 @@
+name: Bug report / 问题反馈
+description: 描述一条可以重现的问题
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤、预期与实际结果
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 浏览器、系统与屏幕尺寸
+  - type: markdown
+    attributes:
+      value: 请勿提交私人日记、访问凭证或无权公开的图片。
